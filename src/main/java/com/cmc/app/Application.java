@@ -3,6 +3,7 @@ package com.cmc.app;
 import com.cmc.swing.MainFrame;
 
 import javax.swing.*;
+import java.awt.*;
 
 public class Application {
 
@@ -10,6 +11,8 @@ public class Application {
     MainFrame maf = new MainFrame();
     maf.setVisible(true);
     maf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+
   }
 
 }
